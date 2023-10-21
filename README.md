@@ -16,3 +16,7 @@ npx create-next-app@latest --typescript
 npm run dev
 ```
 Open http://localhost:3000 with your browser to see the result
+
+
+* Next13 버전 이후 부터는 Link 태그 속에 a 태그를 넣지 않아야 정상 동작함
+Link 속에 a 태그를 유지해야 한다면, legacyBehavior 삽입해야함
